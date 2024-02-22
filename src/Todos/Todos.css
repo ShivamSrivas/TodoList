@@ -1,0 +1,82 @@
+/* Todos.css */
+
+.todos-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .video-element {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    width: 45vw;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .task-container,
+  .description-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-input,
+  .description-input {
+    width: 15vw;
+  }
+  
+  .task-input-field,
+  .description-input-field {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .datetime-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+  
+  .time-picker {
+    width: 8vw;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .date-picker {
+    width: 10vw;
+    margin-top: 1rem;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -2.5rem;
+  }
+  
+  .add-button {
+    background-color: red;
+  }
+  
